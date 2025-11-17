@@ -1,5 +1,7 @@
+# 编译ts
 - ts-node
 node环境的ts的解释执行器
+
 ```
 ts-node 1.ts
 ```
@@ -19,3 +21,17 @@ ts-loader: 背后是tsc
 pnpm i vue@next
 pnpm i -D @vue.compiler-sfc
 vue-loader: 背后是vue-template-compiler
+
+# ts
+
+```
+const a: number = 1; //字面量类型
+let b: number = 2;  //字符串类型
+```
+
+
+```
+! 非空断言,跳过tsnull检查
+? 可空断言,遇到null或undefined时,直接返回undifined
+?? 逻辑空值合并
+```
