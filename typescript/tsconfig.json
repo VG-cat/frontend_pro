@@ -1,6 +1,0 @@
-{
-    "compilerOptions": {
-        "esModuleInterop": true, //解决多种导入方式
-        "jsx": "react",  //解析jsx,生成react.createElement
-    }
-}
